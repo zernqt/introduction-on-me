@@ -1,0 +1,50 @@
+body{
+    background: #171717 !important;
+    font-family: 'Montserrat',sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(13, 14, 14) !important;
+    width: 100%;
+    height: auto;
+}
+.nav-item a{
+color: #ffff !important;
+font-size: 18px !important;
+font-weight: bold;
+}
+.nav-item a:hover{
+    background: #1a1a1a;
+    transition: background .5s ease;
+}
+
+.pageTitle{
+    margin: 50px;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.gallery {
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #333;
+    border-radius: 2%;
+  }
+
+.gallery-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.gallery-pics{
+    width: 250px;
+    margin: 20px;
+}
+
+.gallery-pics:hover{
+transform: scale(1.5); 
+}
+

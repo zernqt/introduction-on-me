@@ -1,0 +1,91 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #171717 !important;
+    font-family: 'Montserrat',sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(13, 14, 14) !important;
+    width: 100%;
+    height: auto;
+}
+.nav-item a{
+color: #ffff !important;
+font-size: 18px !important;
+font-weight: bold;
+}
+.nav-item a:hover{
+    background: #1a1a1a;
+    transition: background .5s ease;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#hTitle{
+    color: #ffff;
+    font-size: 50px;
+    font-weight: bold;
+}
+.container-items{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(104, 99, 99); */
+
+}
+.quotes-section{
+    background-color: rgb(102, 107, 114);
+    width: 60%;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.quotes-section:hover{
+    background-color: rgb(42, 42, 43);
+}
+
+/* Quotes box */
+.text-box{
+    color: aliceblue;
+}
+.title-text{
+    text-align: center;
+    font-weight: bold;
+}
+.text-author{
+    text-align: right;
+    margin-right: 20rem;
+    font-weight: bold;
+}
+
+/*  */
+
+/* Inspirational Video */
+.container2{
+    margin-top: 100px;
+}
+div .inspi-vid{
+    text-align: center;
+}
+.inspi-text{
+    color: #ffff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.video-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.video-items{
+    margin: 20px;
+}
+

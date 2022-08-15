@@ -1,0 +1,66 @@
+body{
+    background: #171717 !important;
+    font-family: 'Montserrat',sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(13, 14, 14) !important;
+    width: 100%;
+    height: auto;
+}
+.nav-item a{
+color: #ffff !important;
+font-size: 18px !important;
+font-weight: bold;
+}
+.nav-item a:hover{
+    background: #1a1a1a;
+    transition: background .5s ease;
+}
+
+.pageTitle{
+    font-weight: bold;
+    margin: 50px;
+    color: #ffff;
+}
+
+.card-container{
+    margin-top: 3rem;
+    justify-content: center !important;
+}
+.card{
+    margin: 20px
+}
+
+.btn-card{
+    width: 250px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.modal-list{
+    margin-bottom: 20px;
+}
+
+.music-player{
+    display: flex;
+    justify-content: center !important;
+    margin: 50px;
+}
+
+.footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(13, 14, 14);
+   color: white;
+   text-align: center;
+}
+
+h4{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}

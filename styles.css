@@ -1,0 +1,99 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: #171717 ;
+    font-family: 'Montserrat',sans-serif !important;;
+}
+
+.navbar{
+    background-color: rgb(13, 14, 14) !important;
+    width: 100%;
+    height: auto;
+}
+.nav-item a{
+color: #ffff !important;
+font-size: 18px !important;
+font-weight: bold;
+}
+.nav-item a:hover{
+    background: #1a1a1a;
+    transition: background .5s ease;
+}
+#welcome{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom left,#1a1a1a,#333333);
+    margin-bottom: 40px;
+}
+h1{
+    font-size: 50px;
+    color: rgb(233, 240, 240);
+}
+h2{
+    font-size: 40px;
+    color: rgb(233, 240, 240) ;
+}
+.moreInfo{
+    justify-content: center;
+    text-align: center;
+
+}
+#textBox{
+    margin: auto;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 40px;
+}
+#textBox:hover{
+    padding:20px;
+    box-shadow:0px 0px 20px #1a1a1a;
+}
+.about{
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    margin-left: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#text{
+    font-size: 20px;
+}
+#contactc{
+    margin: 100px;
+}
+#contact{
+    display: flex;
+    font-size: 20px;
+}
+#textBox2{
+    margin: auto;
+    border: none;
+    background-color: #333333 ;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 40px;
+}
+#textBox2:hover{
+    padding:20px;
+    box-shadow:0px 0px 20px #333333 ;
+}

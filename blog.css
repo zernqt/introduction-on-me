@@ -1,0 +1,102 @@
+body{
+    background: #171717 !important;
+    font-family: 'Montserrat',sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(13, 14, 14) !important;
+    width: 100%;
+    height: auto;
+}
+.nav-item a{
+color: #ffff !important;
+font-size: 18px !important;
+font-weight: bold;
+}
+.nav-item a:hover{
+    background: #1a1a1a;
+    transition: background .5s ease;
+}
+
+.banner{
+    margin: 30px;
+}
+.box{ 
+    border-radius: 7px;
+    background: linear-gradient(145deg, #54666b, #64797f);
+    box-shadow:  6px 6px 9px #4a5a5f,
+                 -6px -6px 9px #70888f;
+    display: flex;
+    margin: 40px;
+}
+#banner{
+    color: #FFFFFF;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+.box .ImgGame{
+    width: 300px;
+    flex: 0 0 300px;
+}
+.box .ImgGame{
+    max-width: 100%;
+}
+.game1{
+    align: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    width: 100%;
+}
+.game2{
+    align: left;
+    margin: 10px 0 15px 15px;
+    width: 100%;
+}
+.box .gameTitle {
+    padding-left: 20px;
+}
+.box .gameTitle1 .games-desc{
+    margin: 0;
+    padding: 10px 0 0;
+}
+
+.gameTitle{
+    color: #ffffff;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.games-desc{
+    color: #ffffff;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+.box2{
+    border-radius: 7px;
+background: linear-gradient(145deg, #454f56, #525e66);
+box-shadow:  6px 6px 9px #444d54,
+             -6px -6px 9px #56636a;
+    display: flex;
+    margin: 40px;
+}
+.box2 .ImgGame{
+    width: 300px;
+    flex: 0 0 300px;
+}
+.box2 .ImgGame{
+    max-width: 100%;
+}
+.box2 .gameTitle{
+    padding-left: 20px;
+}
+.box2 .gameTitle .games-desc{
+    margin: 0;
+    padding: 10px 0 0;
+}
